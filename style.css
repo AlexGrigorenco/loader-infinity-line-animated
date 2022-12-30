@@ -1,0 +1,187 @@
+
+
+
+* {
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: calc(16px + (24 - 16) * (100vw - 320px) / (1280 - 320));
+}
+
+body {
+  background: rgb(36, 34, 34);
+  font: 1em/1.5 sans-serif;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+#loader {
+  padding: 1rem;
+  background: rgb(24, 23, 23);
+  border-radius: 8px;
+}
+
+.ic {
+  display: block;
+  width: 16em;
+  height: 16em;
+}
+.ic__loop {
+  animation: loop 4s linear infinite;
+}
+.ic__loop:nth-of-type(2) {
+  animation-delay: -0.0833333333s;
+}
+.ic__loop:nth-of-type(3) {
+  animation-delay: -0.1666666667s;
+}
+.ic__loop:nth-of-type(4) {
+  animation-delay: -0.25s;
+}
+.ic__loop:nth-of-type(5) {
+  animation-delay: -0.3333333333s;
+}
+.ic__loop:nth-of-type(6) {
+  animation-delay: -0.4166666667s;
+}
+.ic__loop:nth-of-type(7) {
+  animation-delay: -0.5s;
+}
+.ic__loop:nth-of-type(8) {
+  animation-delay: -0.5833333333s;
+}
+.ic__loop:nth-of-type(9) {
+  animation-delay: -0.6666666667s;
+}
+.ic__loop:nth-of-type(10) {
+  animation-delay: -0.75s;
+}
+.ic__loop:nth-of-type(11) {
+  animation-delay: -0.8333333333s;
+}
+.ic__loop:nth-of-type(12) {
+  animation-delay: -0.9166666667s;
+}
+.ic__loop:nth-of-type(13) {
+  animation-delay: -1s;
+}
+.ic__loop:nth-of-type(14) {
+  animation-delay: -1.0833333333s;
+}
+.ic__loop:nth-of-type(15) {
+  animation-delay: -1.1666666667s;
+}
+.ic__loop:nth-of-type(16) {
+  animation-delay: -1.25s;
+}
+.ic__loop:nth-of-type(17) {
+  animation-delay: -1.3333333333s;
+}
+.ic__loop:nth-of-type(18) {
+  animation-delay: -1.4166666667s;
+}
+.ic__loop:nth-of-type(19) {
+  animation-delay: -1.5s;
+}
+.ic__loop:nth-of-type(20) {
+  animation-delay: -1.5833333333s;
+}
+.ic__loop:nth-of-type(21) {
+  animation-delay: -1.6666666667s;
+}
+.ic__loop:nth-of-type(22) {
+  animation-delay: -1.75s;
+}
+.ic__loop:nth-of-type(23) {
+  animation-delay: -1.8333333333s;
+}
+.ic__loop:nth-of-type(24) {
+  animation-delay: -1.9166666667s;
+}
+.ic__loop:nth-of-type(25) {
+  animation-delay: -2s;
+}
+.ic__loop:nth-of-type(26) {
+  animation-delay: -2.0833333333s;
+}
+.ic__loop:nth-of-type(27) {
+  animation-delay: -2.1666666667s;
+}
+.ic__loop:nth-of-type(28) {
+  animation-delay: -2.25s;
+}
+.ic__loop:nth-of-type(29) {
+  animation-delay: -2.3333333333s;
+}
+.ic__loop:nth-of-type(30) {
+  animation-delay: -2.4166666667s;
+}
+.ic__loop:nth-of-type(31) {
+  animation-delay: -2.5s;
+}
+.ic__loop:nth-of-type(32) {
+  animation-delay: -2.5833333333s;
+}
+.ic__loop:nth-of-type(33) {
+  animation-delay: -2.6666666667s;
+}
+.ic__loop:nth-of-type(34) {
+  animation-delay: -2.75s;
+}
+.ic__loop:nth-of-type(35) {
+  animation-delay: -2.8333333333s;
+}
+.ic__loop:nth-of-type(36) {
+  animation-delay: -2.9166666667s;
+}
+.ic__loop:nth-of-type(37) {
+  animation-delay: -3s;
+}
+.ic__loop:nth-of-type(38) {
+  animation-delay: -3.0833333333s;
+}
+.ic__loop:nth-of-type(39) {
+  animation-delay: -3.1666666667s;
+}
+.ic__loop:nth-of-type(40) {
+  animation-delay: -3.25s;
+}
+.ic__loop:nth-of-type(41) {
+  animation-delay: -3.3333333333s;
+}
+.ic__loop:nth-of-type(42) {
+  animation-delay: -3.4166666667s;
+}
+.ic__loop:nth-of-type(43) {
+  animation-delay: -3.5s;
+}
+.ic__loop:nth-of-type(44) {
+  animation-delay: -3.5833333333s;
+}
+.ic__loop:nth-of-type(45) {
+  animation-delay: -3.6666666667s;
+}
+.ic__loop:nth-of-type(46) {
+  animation-delay: -3.75s;
+}
+.ic__loop:nth-of-type(47) {
+  animation-delay: -3.8333333333s;
+}
+.ic__loop:nth-of-type(48) {
+  animation-delay: -3.9166666667s;
+}
+
+/* Animation */
+@keyframes loop {
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset: -600;
+  }
+}
